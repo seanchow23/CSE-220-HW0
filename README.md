@@ -6,7 +6,7 @@ We will use this homework assignment to test the Github Classroom workflow that 
 Mac OSX and Linux systems have git pre-installed. Check by running the command `git --version` in a terminal. On Windows, you will use git bash to run git commands.
 
 ## Compilation
-- You can use any framework that can compile C programs. However, I would recomend that you do it with Codespaces (https://github.com/features/codespaces). It gives you free 60 hrs of machine time each month. This will be enough for the programming assignments for this course.
+- You can use any framework that can compile C programs. However, I would recomend that you do it with [Codespaces] (https://github.com/features/codespaces). It gives you free 60 hrs of machine time each month. This will be enough for the programming assignments for this course.
 
 ### Autograding Example: C
 This example project is written in C, and tested with make and bash scripts.
