@@ -1,3 +1,8 @@
+/*-------------------------
+Your name  = 
+Your email =
+Your NetID =   
+-----------------------------*/
 #include <stdio.h>
 
 int main() {
