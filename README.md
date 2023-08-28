@@ -53,7 +53,7 @@ As described in the previous section, you will write all your code in the *hello
 After you submit or push code to your repository, open the assignment repository on GitHub in a browser. Look for a **green tick** or a **red cross**. A green tick indicates that all tests have passed. A red cross indicates some or all tests may have failed. When you click on the red cross and then *details*, you will see a report indicating which test methods in *hello.c* passed and which methods failed. In this assignment, there is only one test method. Since you won't be changing any code, the test will pass. Hence, you will see a green tick indicating that the test has passed. For future assignments, you can click on the report to view the test report. You can keep changing your code till all tests pass or you see the green tick. However, submissions/pushes will only be allowed till a deadline, after which you will not be allowed to submit/push. This homework assignment has no deadline.
 
 #### Possible Issues
-If you see a red cross for this homework assignment, it is most likely because there is something wrong in your local system's configuration. All your assignments will be tested with CodeSpace. Therefore, **it is highly recomended to check it using Codespace VM first before submitting it.**
+If you see a red cross for this homework assignment, it is most likely because there is something wrong in your local system's configuration. All your assignments will be tested with CodeSpace. Therefore, **it is highly recomended to check it using Codespaces VM first before submitting it.**
 
 ## Testing Your code locally
 
