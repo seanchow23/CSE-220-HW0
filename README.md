@@ -29,10 +29,10 @@ Once you have setup SSH to work with GitHub, we can now seamlessly download the 
 
 `git clone <paste-ssh-link>`
 
-You will see a directory or folder named *./cise337-hw0-setup* created in your current directory or folder. Inside this folder, you will find the following files:
-- *hw0.py* with a function that returns a message. This is the file in which you will write your code. For this assignment all you have to do is fill in your name, NetID, and SBU ID.
+You will see a directory or folder named *./assignment-name-yourID* created in your current directory or folder. Inside this folder, you will find the following files:
+- *hello.c* with a function that returns a message. This is the file in which you will write your code. For this assignment all you have to do is fill in your name, NetID, and SBU ID.
 
-- *hw0_test.py* This file contains test code to verify the behavior of *hw0.py*. In this assignment it contains code to verify if the expected message is being returned from the function in *hw0.py*. In future assignments, this file will have numerous test cases which you will need to pass. You will get credit for every test case you pass. You must not change this file. If you do then you won't receive any credit for the homework.
+- *test.sh* This file contains test code to verify the behavior of *hw0.py*. In this assignment it contains code to verify if the expected message is being returned from the function in *hw0.py*. In future assignments, this file will have numerous test cases which you will need to pass. You will get credit for every test case you pass. You must not change this file. If you do then you won't receive any credit for the homework.
 
 ## Submitting to GitHub
 As described in the previous section, you will write all your code in the *.py* file that does not have the *test* suffix. For this assignment, fill in your full name, NetID, and SBU ID in the parts marked for you in *hw0.py*. Assuming you are in the directory *cise337/hw0-setup*. Submit your code using the following commands:
