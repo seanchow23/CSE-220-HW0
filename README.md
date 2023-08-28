@@ -49,3 +49,17 @@ As described in the previous section, you will write all your code in the *hello
 ### Run test
 `make test`
 
+## After submission/pushing
+After you submit or push code to your repository, open the assignment repository on GitHub in a browser. Look for a **green tick** or a **red cross**. A green tick indicates that all tests have passed. A red cross indicates some or all tests may have failed. When you click on the red cross and then *details*, you will see a report indicating which test methods in *hw0_test.py* passed and which methods failed. In this assignment, there is only one test method. Since you won't be changing any code, the test will pass. Hence, you will see a green tick indicating that the test has passed. For future assignments, you can click on the report to view the test report. You can keep changing your code till all tests pass or you see the green tick. However, submissions/pushes will only be allowed till a deadline, after which you will not be allowed to submit/push. This homework assignment has no deadline.
+
+#### Possible Issues
+If you see a red cross for this homework assignment, it is most likely because there is something wrong in your local system's configuration. Check your classpath and make sure you do not have multiple Python versions. It is possible that pip is not installed in the Python version that you are using. Run the above command python install command in *Required Software* section to fix the issue.
+
+## Testing Your code locally
+
+You can also verify if the test cases pass locally in your system before pushing to the remote repository. Use the following command in a terminal to run the tests:
+
+`pytest hw0_test.py`
+
+After the running the command you should see a test report with the tests that passed/failed. Expect to see a green tick in GitHub after you push code that passed all tests locally, in which case you are done!
+
