@@ -35,10 +35,10 @@ You will see a directory or folder named *./assignment-name-yourID* created in y
 - *test.sh* This file contains test code to verify the behavior of *hw0.py*. In this assignment it contains code to verify if the expected message is being returned from the function in *hw0.py*. In future assignments, this file will have numerous test cases which you will need to pass. You will get credit for every test case you pass. You must not change this file. If you do then you won't receive any credit for the homework.
 
 ## Submitting to GitHub
-As described in the previous section, you will write all your code in the *.py* file that does not have the *test* suffix. For this assignment, fill in your full name, NetID, and SBU ID in the parts marked for you in *hw0.py*. Assuming you are in the directory *cise337/hw0-setup*. Submit your code using the following commands:
+As described in the previous section, you will write all your code in the *hello.c* file. For this assignment, fill in your full name, NetID, and SBU ID in the parts marked for you in *hello.c*. Submit your code using the following commands:
 
 - Add your file to git:\
-`git add hw0.py`
+`git add hello.c`
 
 - Save your file with a comment:\
 `git commit -m "first draft"`
@@ -46,18 +46,6 @@ As described in the previous section, you will write all your code in the *.py* 
 - Submit file:\
 `git push`
 
-
-### Autograding Example: C
-This example project is written in C, and tested with make and bash scripts.
-
-### The assignment
-The tests are currently failing because we're printing the wrong string. Correcting the `printf` will fix the tests.
-
-### Setup command
-N/A
-
-### Run command
+### Run test
 `make test`
 
-### Notes
-- `gcc` can be used to compile and link C applications for use with existing test harnesses or C testing frameworks.
